@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "clase-30-template",
+    "slug": "clase-30-template",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/elecciones.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "server",
+      "favicon": "./assets/images/favicon.png"
+    },
+    
+      
+    "splash": {
+        "image": "./assets/images/elecciones.png", 
+        "resizeMode": "contain", 
+        "imageWidth":200,
+        "backgroundColor": "#fff8dc" 
+    },
+    
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/elecciones.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#fff8dc"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+
+    
+  }
+}
